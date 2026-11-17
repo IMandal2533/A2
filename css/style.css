@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+}
+
+.site-header {
+    background: #004D98;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 350px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    list-style: none;
+    padding: 20px 20px;
+}
+
+.nav-list a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-list a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.header-content {
+    display: flex;
+    flex: 1;
+    padding: 0 0 20px 20px;
+}
+
+.welcome {
+flex: 0 auto;
+align-self: flex-end;
+}
+
+.welcome h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.strip {
+    display: flex;
+    flex: 1;
+    height: 100px;
+    background-image: url("../images/Camp Nou.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.strip img {
+    height: 100%;
+    flex: 1;
+}
+
+.break1, .break2, .break3, .break4, .break5, .break6 {
+    border: 5px solid #004D98;
+    height: 100%;
+}
+
+
+.break1, .break2, .break3{
+    flex: 1;
+}
+
+.break4{
+    flex: 2;
+}
+
+.break5{
+    flex: 2.5;
+}
+
+.break6{
+    flex:5;
+}
+
+.gallery {
+    display: flex;
+    gap: 10px;
+    padding: 20px 5px;
+}
+
+.gallery-left {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex: 1 2;
+}
+
+.gallery-right {
+    flex: 2;
+}
+
+.gallery img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.text-block {
+    padding: 20px 50px;
+}
+
+.text-block h2 {
+    font-size: 2rem;
+}
+
+.site-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    background: #A50044;
+    color: white;
+    font-weight: bold;
+}
+
